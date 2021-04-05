@@ -1,0 +1,47 @@
+React Router
+
+Instalarlo: Para web es react-router-dom
+
+En index.js wrapear App con el tag BrowserRouter
+
+Para empezarlo a usar, esta libreria nos da el tag <Link to='/unLink'> Opcion Menu </Link>
+
+NO USAR LOS TAGS <a> PORQUE TE REFRESCA TODA LA APLICACION. SOLO USARLO EN CASO QUE QUIERAS SALIR DEL SITE
+
+Otro componente importante es Route. Nos va a poder renderizar el componente que definimos en Link
+
+Tiene la prop path que tiene el recurso. El recurso component permite decir que componentes renderizar. ¿Puedo
+Renderizar mas de uno?
+
+prop exact cuando quiero que el path coincida exactamente
+
+concepto de switch: Tag que sirve para envolver a los Route. Evita que se te filtren estados entre los componentes
+
+
+Si no aclaro un 404 en react-router, puedo poner cualquier path que me carga el home
+Para evitar esto creo un componente y va a funcionar como un notFound.
+
+Lo llamo dentro del switch al final de todos, en App.js
+
+Una solución para arreglar problemas cuando tenemos ruteos con ruteos internos, es ponerle a todo exact.
+Es decir, el exact va cuando llamas a una ruta que es muy ambigua.
+
+Despues está el tag NavLink, que funciona igual que el Link comun.
+Solamente que el NavLink te pone automáticamente la clase "active" cuando se da cuenta que la ruta que 
+apunta al link matchea con la URL.
+
+Cuando haces click en otro lado te quita la clase esa.
+
+El mismo comportamiento se obtiene usando la property activeClassName = "LaClaseQueQuiera"
+
+
+Rutas Dinámicas
+
+
+
+
+
+
+
+
+

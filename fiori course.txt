@@ -1,0 +1,11 @@
+Poor UX leads to
+  - Decreased adoption
+  - Wasted development
+  - Customer escalations
+  - High support costs
+
+Terminology
+  - Design
+  - User Experience
+  - User Interface
+  - Usability
